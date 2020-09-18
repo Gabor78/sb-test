@@ -180,7 +180,6 @@ header a:hover {
 
 .box p {
 	text-align: justify;
-	height: 100%;
 	margin-bottom: 0;
 }
 
@@ -223,7 +222,7 @@ h1 {
 	background-position: center;
 }
 .slickdiv {
-	padding: 45% 0 15% 23%;
+	padding: 45% 0 15% 23.5%;
 	color: #fff;
 }
 
@@ -282,7 +281,7 @@ address {
 
 @media(max-width:991px) {
 	.slickdiv {
-		padding: 45% 0 15% 30px;
+		padding: 35% 0 15% 13px;
 		color: #fff;
 	}
 	.nopadding {
@@ -291,9 +290,13 @@ address {
 }
 
 @media(max-width:768px) {
+	.slickdiv {
+		padding: 35% 0 15% 13px;
+		color: #fff;
+	}
 	.partners {
 		float: left;
-		margin: 0 15% 79px 20%;
+		margin: 0 15% 79px 13%;
 	}
 	.partner {
 		margin-bottom: -1px;
